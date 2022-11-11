@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-11T06:39:05 GMT+05:30" name="Suite" finished-at="2022-11-11T06:39:13 GMT+05:30" duration-ms="8522">
+    <groups>
+    </groups>
+    <test started-at="2022-11-11T06:39:05 GMT+05:30" name="sanity" finished-at="2022-11-11T06:39:13 GMT+05:30" duration-ms="8522">
+      <class name="com.herokuapp.TestLoginAuth">
+        <test-method signature="testInvalidAuth()[pri:0, instance:com.herokuapp.TestLoginAuth@5db45159]" started-at="2022-11-11T06:39:05 GMT+05:30" name="testInvalidAuth" finished-at="2022-11-11T06:39:12 GMT+05:30" duration-ms="7404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidAuth -->
+        <test-method signature="testValidAuth()[pri:0, instance:com.herokuapp.TestLoginAuth@5db45159]" started-at="2022-11-11T06:39:12 GMT+05:30" name="testValidAuth" finished-at="2022-11-11T06:39:13 GMT+05:30" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidAuth -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.TestLoginAuth@5db45159]" started-at="2022-11-11T06:39:13 GMT+05:30" name="tearDown" finished-at="2022-11-11T06:39:13 GMT+05:30" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.TestLoginAuth -->
+    </test> <!-- sanity -->
+  </suite> <!-- Suite -->
+</testng-results>
