@@ -61,6 +61,7 @@ public class TestLoginAuth {
 
     @Test
     public void checkGitWorkFlow(){
+        System.out.println("add new statements");
 
     }
 
