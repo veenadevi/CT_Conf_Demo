@@ -59,6 +59,11 @@ public class TestLoginAuth {
         Assert.assertTrue(driver.findElement(By.cssSelector(".success")).isDisplayed());
     }
 
+    @Test
+    public void checkGitWorkFlow(){
+
+    }
+
     @AfterTest
     public void tearDown(){
         driver.quit();
