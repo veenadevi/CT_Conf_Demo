@@ -40,15 +40,7 @@ public class TestLoginAuth {
     @Test
     public void testValidAuth(){
 
-//        WebDriverManager.chromedriver().setup();
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("--no-sandbox");
-//        options.addArguments("--disable-dev-shm-usage");
-//        // options.addArguments("--headless");
-//        driver = new ChromeDriver(options);
-//        driver.manage().window().maximize();
-//
-//        driver.manage().timeouts().implicitlyWait(120,TimeUnit.SECONDS);
+
 
         driver.get("http://the-internet.herokuapp.com/login");
 
@@ -61,6 +53,18 @@ public class TestLoginAuth {
 
     @Test
     public void checkGitWorkFlow(){
+        System.out.println("add new statements");
+
+    }
+
+    @Test
+    public void checkGitnewWorkFlow(){
+        System.out.println("add new statements");
+
+    }
+
+    @Test
+    public void checkGitnewWorkFlow_new(){
         System.out.println("add new statements");
 
     }
